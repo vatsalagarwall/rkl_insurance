@@ -17,7 +17,7 @@ function Main({ selectedCurrency }) {
         <tbody>
           <tr>
             <td>Marketing</td>
-            <td>{selectedCurrency}50</td>
+            <td>{selectedCurrency}60</td>
             <td>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer({ selectedCurrency }) {
   const saveClicked = () => {
-    alert("The value cannot exceed remaining funds £40");
+    alert("You cannot reduce the budget lower than the spending");
   };
   return (
     <div style={{ marginTop: "20px" }}>
@@ -20,6 +20,7 @@ function Footer({ selectedCurrency }) {
           </span>
           <select style={{ padding: "5px" }}>
             <option>Choose...</option>
+            <option>Marketing</option>
           </select>
         </div>
         <div style={{ marginLeft: "20px" }}>
@@ -39,7 +40,7 @@ function Footer({ selectedCurrency }) {
 
         <div style={{ marginLeft: "20px" }}>
           {selectedCurrency}
-          <input></input>
+          <input type="text"></input>
         </div>
         <div style={{ marginLeft: "20px" }}>
           <button
