@@ -1,6 +1,9 @@
 import React from "react";
 
 function Footer({ selectedCurrency }) {
+  const saveClicked = () => {
+    alert("The value cannot exceed remaining funds £40");
+  };
   return (
     <div style={{ marginTop: "20px" }}>
       <h4>Change Allocation</h4>
@@ -39,7 +42,11 @@ function Footer({ selectedCurrency }) {
           <input></input>
         </div>
         <div style={{ marginLeft: "20px" }}>
-          <button type="button" class="btn btn-primary">
+          <button
+            type="button"
+            class="btn btn-primary"
+            onClick={() => saveClicked()}
+          >
             Save
           </button>
         </div>
