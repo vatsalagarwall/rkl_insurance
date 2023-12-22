@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Main from "./Main";
+import Footer from "./Footer";
 
 function Header() {
   const [selectedCurrency, setSelectedCurrency] = useState("$");
@@ -16,7 +17,7 @@ function Header() {
         <div className="row g-3 align-items-start">
           <div
             className="col text-left"
-            style={{ backgroundColor: "#CCCCCC", borderRadius: "10px" }}
+            style={{ backgroundColor: "#E2E3E5", borderRadius: "10px" }}
           >
             <p style={{ paddingTop: "10px" }}>
               Budget: {selectedCurrency}
@@ -26,7 +27,7 @@ function Header() {
           <div
             className="col text-left"
             style={{
-              backgroundColor: "#D1FFBD",
+              backgroundColor: "#D1E6DD",
               borderRadius: "10px",
               marginLeft: "20px",
             }}
@@ -38,7 +39,7 @@ function Header() {
           <div
             className="col text-left"
             style={{
-              backgroundColor: "#ADD8E6",
+              backgroundColor: "#CFE2FF",
               borderRadius: "10px",
               marginLeft: "20px",
             }}
@@ -51,7 +52,7 @@ function Header() {
             <select
               className="form-select"
               onChange={handleCurrencyChange}
-              style={{ backgroundColor: "#50C878", color: "white" }}
+              style={{ backgroundColor: "#93E498", color: "white" }}
             >
               <option value="$">$ Dollar</option>
               <option value="£">£ Pound</option>
@@ -62,6 +63,7 @@ function Header() {
         </div>
       </div>
       <Main selectedCurrency={selectedCurrency} />
+      <Footer selectedCurrency={selectedCurrency} />
     </div>
   );
 }

@@ -25,13 +25,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-plus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="green" />
                 <path d="M8 12h8" />
                 <path d="M12 8v8" />
               </svg>
@@ -43,13 +43,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-minus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="red" />
                 <path d="M8 12h8" />
               </svg>
             </td>
@@ -60,13 +60,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-x-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="black" />
                 <path d="m15 9-6 6" />
                 <path d="m9 9 6 6" />
               </svg>
@@ -82,13 +82,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-plus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="green" />
                 <path d="M8 12h8" />
                 <path d="M12 8v8" />
               </svg>
@@ -100,13 +100,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-minus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="red" />
                 <path d="M8 12h8" />
               </svg>
             </td>
@@ -117,13 +117,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-x-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="black" />
                 <path d="m15 9-6 6" />
                 <path d="m9 9 6 6" />
               </svg>
@@ -139,13 +139,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-plus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="green" />
                 <path d="M8 12h8" />
                 <path d="M12 8v8" />
               </svg>
@@ -157,13 +157,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-minus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="red" />
                 <path d="M8 12h8" />
               </svg>
             </td>
@@ -174,13 +174,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-x-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="black" />
                 <path d="m15 9-6 6" />
                 <path d="m9 9 6 6" />
               </svg>
@@ -196,13 +196,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-plus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="green" />
                 <path d="M8 12h8" />
                 <path d="M12 8v8" />
               </svg>
@@ -214,13 +214,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-minus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="red" />
                 <path d="M8 12h8" />
               </svg>
             </td>
@@ -231,13 +231,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-x-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="black" />
                 <path d="m15 9-6 6" />
                 <path d="m9 9 6 6" />
               </svg>
@@ -253,13 +253,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-plus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="green" />
                 <path d="M8 12h8" />
                 <path d="M12 8v8" />
               </svg>
@@ -271,13 +271,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-minus-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="red" />
                 <path d="M8 12h8" />
               </svg>
             </td>
@@ -288,13 +288,13 @@ function Main({ selectedCurrency }) {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="lucide lucide-x-circle"
               >
-                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="10" fill="black" />
                 <path d="m15 9-6 6" />
                 <path d="m9 9 6 6" />
               </svg>
